@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #EAE7DC;
+    background-image: url("img/podjelje_cover.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.navbar {
+    background-color: rgba(255,255,255,0.6);
+}
+
+.navbar {
+    color: transparent;
+}
+
+.buttons {
+    margin-left: 1em;
+}
+
+.yt {
+    --height:70vh;
+    height:var(--height);
+    width: calc(var(--height)/9*16);
+}
+
+.bg-img {
+    background-image: url("img/podjelje_cover.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.footer {
+    padding-bottom: 0;
+    background-color: rgba(255,255,255,0.3);
+    padding-top: 1em;
+    margin-bottom: 0;
+}
