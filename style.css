@@ -4,28 +4,31 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    background-color: #EAE7DC;
     background-image: url("img/podjelje_cover.png");
     background-size:cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .navbar {
     background-color: rgba(255,255,255,0.6);
+    font-weight: 550;
 }
 
-.navbar {
-    color: transparent;
+.navbar a:link, .navbar a:visited {
+    color: black;
 }
 
-.buttons {
-    margin-left: 1em;
+.navbar a:hover {
+    transform: scale(1.1);
 }
 
 .yt {
-    --height:70vh;
-    height:var(--height);
+    --height: 70vh;
+    height: var(--height);
     width: calc(var(--height)/9*16);
 }
 
@@ -38,7 +41,11 @@ body {
 
 .footer {
     padding-bottom: 0;
-    background-color: rgba(255,255,255,0.3);
+    background-color: transparent;
     padding-top: 1em;
     margin-bottom: 0;
+}
+
+.footer a:link, .footer a:visited {
+    color: white;
 }
