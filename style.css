@@ -13,6 +13,11 @@ body {
     justify-content: space-between;
 }
 
+.subnavpage {
+    font-weight: bolder;
+    transform: scale(1.1);
+}
+
 .navbar {
     background-color: rgba(255,255,255,0.6);
     font-weight: 550;
@@ -30,6 +35,27 @@ body {
     --height: 70vh;
     height: var(--height);
     width: calc(var(--height)/9*16);
+}
+
+.tile {
+    flex-direction: row;
+    justify-content: center;
+}
+
+.apt a {
+    color: whitesmoke;
+}
+
+.apt a:hover {
+    color: black;
+}
+
+.email a, .airbnb a {
+    color: black;
+}
+
+.email a:hover, .airbnb a:hover {
+    transform: scale(1.1);
 }
 
 .bg-img {
