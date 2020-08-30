@@ -43,12 +43,12 @@ body > section {
     font-size: larger;
 }
 
-.apt a {
+.apt a i {
     color:transparent;
     padding-top: 10%;
 }
 
-.apt a:hover {
+.apt a:hover i {
     color: whitesmoke;
     text-shadow: 0 0 20px #050201;
 }
