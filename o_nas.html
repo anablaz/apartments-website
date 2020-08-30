@@ -3,58 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <title>O nas</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
-    <link rel="stylesheet" href="style.css">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="menu.js"></script>
 </head>
 <body>
 
-<nav class="navbar  is-transparent" role="navigation" aria-label="main navigation">
+<nav aria-label="main navigation" class="navbar is-transparent" role="navigation">
     <div class="navbar-brand">
-        <a class="navbar-item" href="https://bulma.io">
+        <a class="navbar-item" href="index.html">
+            Apartmaji Bohinj-Pokljuka
         </a>
-        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
-           data-target="navbarBasicExample">
+
+        <a aria-expanded="false" aria-label="menu" class="navbar-burger burger" data-target="navbarMenu"
+           role="button">
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
         </a>
     </div>
 
-    <div id="navbarBasicExample" class="navbar-menu">
+    <div class="navbar-menu" id="navbarMenu">
         <div class="navbar-start">
+            <a class="navbar-item subnavpage" href="o_nas.html">
+                O nas
+            </a>
 
-            <div class="navbar-item has-dropdown">
-                <a class="navbar-item" href="index.html">
-                    Apartmaji Bohinj-Pokljuka
-                </a>
+            <a class="navbar-item" href="rezervacija.html">
+                Rezervacija
+            </a>
 
-                <a class="navbar-item subnavpage" href="o_nas.html">
-                    O nas
-                </a>
-
-                <a class="navbar-item" href="rezervacija.html">
-                    Rezervacija
-                </a>
-
-                <a class="navbar-item" href="kontakt.html">
-                    Kontakt
-                </a>
-
-            </div>
+            <a class="navbar-item" href="kontakt.html">
+                Kontakt
+            </a>
         </div>
-    </div>
 
-    <div class="navbar-end">
-        <div class="navbar-item">
-            <div class="buttons">
-                <a>
-                    <img src="img/uk_flag.svg" alt="English">
-                </a>
-                <a>
-                    <img class="ml-3" src="img/de_flag.svg" alt="Deutsch">
-                </a>
+        <div class="navbar-end">
+            <div class="navbar-item">
+                <div class="buttons">
+                    <a>
+                        <img alt="English" src="img/uk_flag.svg">
+                    </a>
+                    <a>
+                        <img alt="Deutsch" class="ml-3" src="img/de_flag.svg">
+                    </a>
+                </div>
             </div>
         </div>
     </div>

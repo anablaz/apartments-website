@@ -1,7 +1,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
     background-image: url("img/podjelje_cover.png");
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
     display: flex;
@@ -11,26 +11,28 @@ body {
 
 .subnavpage {
     font-weight: bolder;
-    transform: scale(1.1);
 }
 
 .navbar {
-    background-color: rgba(255,255,255,0.6);
-    font-weight: 550;
+    background-color: rgba(255, 255, 255, 0.6);
 }
 
 .navbar a:link, .navbar a:visited {
     color: black;
 }
 
-.navbar a:hover {
-    transform: scale(1.1);
+@media only screen and (min-width: 1024px) {
+    .subnavpage {
+        transform: scale(1.1);
+    }
+
+    .navbar a:hover {
+        transform: scale(1.1);
+    }
 }
 
-.yt {
-    --height: 70vh;
-    height: var(--height);
-    width: calc(var(--height)/9*16);
+.navbar-menu, a.navbar-item:hover {
+    background: transparent;
 }
 
 body > section {
@@ -44,13 +46,17 @@ body > section {
 }
 
 .apt a i {
-    color:transparent;
+    color: transparent;
     padding-top: 10%;
 }
 
 .apt a:hover i {
     color: whitesmoke;
     text-shadow: 0 0 20px #050201;
+}
+
+iframe {
+    border: none;
 }
 
 .email a, .airbnb a {
@@ -68,7 +74,7 @@ body > section {
 
 .bg-img {
     background-image: url("img/podjelje_cover.png");
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
 }
